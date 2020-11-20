@@ -1,0 +1,97 @@
+
+
+body#page-top {
+  background: #dedbdb;
+}
+
+div#waveform {
+  margin-top: -35px;
+}
+
+.frame {
+  background: white;
+  max-width: 800px;
+  margin: auto;
+  padding: 45px;
+  display: flex;
+}
+
+.body {
+  padding-top: 100px;
+}
+
+.reproBox {
+  background: #f3f7fc;
+  min-height: 116px;
+}
+
+.circle {
+  background: gray;
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+  justify-content: center;
+  display: flex;
+  margin-right: 20px;
+}
+
+.lightBlue {
+  background: #F3F7FC;
+  height: 80px;
+}
+
+.waveformContianer{
+  padding: 0 20px;
+  display: flex;  
+  flex-direction: row;  
+  align-items: center;
+  justify-content: center;
+  height: 100px;  width: 100%;
+  background: #F3F7FC;
+
+}
+
+#waveform{
+  width: 100%;
+  height: 90px;
+  display: block;
+}
+
+.icons {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  background:#00B3C7;
+  border-radius: 25px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-bottom: 3px;
+ 
+}
+
+.remaining {
+  margin-top: -15px;
+  padding: 0 0px 10px 80px;
+}
+
+
+
