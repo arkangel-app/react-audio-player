@@ -93,7 +93,7 @@ class Waveform extends Component {
               </div>
               <div className="remaining"> {this.state.flag?current:""} </div>
             </div>
-              <div className="data"> Luis Rodriguez | {this.state.duration} </div>
+              <div className="data"> Luis Rodriguez <span className="bar">|</span> {this.state.duration} </div>
             
            </Col>
            </div>

@@ -18,22 +18,26 @@ div#waveform {
 
 .body {
   padding-top: 100px;
+  color: 9DA5B7;
 }
 
 .reproBox {
   background: #f3f7fc;
   min-height: 116px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .circle {
-  background: gray;
-  width: 50px;
-  height: 50px;
+  background: #707C97;
+  width: 40px;
+  height: 40px;
   color: white;
   text-align: center;
   align-items: center;
   border-radius: 50px;
-  font-size: 20px;
+  font-size: 15px;
   font-family: sans-serif;
   justify-content: center;
   display: flex;
@@ -45,14 +49,17 @@ div#waveform {
   height: 80px;
 }
 
+span.bar {
+  padding: 0 10px;
+}
+
 .waveformContianer{
-  padding: 0 20px;
+  padding: 0 16px;
   display: flex;  
   flex-direction: row;  
   align-items: center;
   justify-content: center;
   height: 100px;  width: 100%;
-  background: #F3F7FC;
 
 }
 
@@ -60,6 +67,7 @@ div#waveform {
   width: 100%;
   height: 90px;
   display: block;
+  margin-left: 15px;
 }
 
 .icons {
@@ -72,6 +80,7 @@ div#waveform {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 20px;
 }
 
 .playButton{
@@ -90,7 +99,14 @@ div#waveform {
 
 .remaining {
   margin-top: -15px;
-  padding: 0 0px 10px 80px;
+  padding: 0 0px 10px 100px;
+  color: #707C97;
+
+}
+
+.data{
+  padding-top: 15px;
+  color: #707C97;
 }
 
 
